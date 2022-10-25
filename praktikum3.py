@@ -3,11 +3,11 @@ print("Nama : Muhammad Din Al Ayubi")
 print("NIM : 312210293")
 print("Kelas : T.I 22 A.3")
 
-pi = 22/7
-jari = float(input("Masukkan jari- jari : "))
-luas = pi*(jari*jari)
-keliling = 2*pi*jari
+import math
+r = float(input("Masukkan jari- jari : "))
+luas = math.pi*r
+keliling = 2*math.pi*r
 
-print("\n-------------------Hasilnya--------------")
-print("Luas Lingkaran =","{:.3f}".format(luas))
-print("Keliling Lingkaran =","{:.3f}".format(keliling))
+print("\n----------Hasilnya----------")
+print("Luas Lingkaran\t\t =",Luas)
+print("Keliling Lingkaran\t =" ,keliling)
